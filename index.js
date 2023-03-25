@@ -29,5 +29,5 @@ app.use('/api/imagen', imagenController)
 
 
 //arranque del servidor
-const port = 5728
+const port = 3001
 app.listen(port, () => console.log(`Express en puerto ${port}!`))
